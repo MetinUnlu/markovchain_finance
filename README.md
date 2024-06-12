@@ -103,4 +103,4 @@ where $ \odot $ denotes the element-wise multiplication.
 With this method, a **16%** profit was achieved. However, compared to a buy-and-hold strategy's **58%** profit, this model underperformed. The success of the Markov chain method relies on creating states that accurately describe the stock market. Future improvements could involve reinforcement learning and more complex indicators.
 
 # Conclusion
-This project creates states for a stock, generates a Markov chain transition matrix, and calculates expected outcomes for each state's next step. The process is repeatable with any stock and time range. To improve the strategy, further study on "Event Patterns" and different Technical Indicators is recommended.
+This project creates states for a stock, generates a Markov chain transition matrix, and calculates expected outcomes for each state's next step. The process is repeatable with any stock and time range. To improve the strategy, different Technical Indicators is recommended as Markov chain is a method to describe state change, if correct states are used the method can achieve high performance.
