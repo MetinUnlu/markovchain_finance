@@ -77,15 +77,15 @@ Constructs a stochastic matrix representing transition probabilities and calcula
 
 ### Output
 Returns two DataFrames:
-- $ \mathcal{T} $: Transition probability grid.
-- $ \mathcal{C} $: Expected value change grid.
+- $\mathcal{T}$: Transition probability grid.
+- $\mathcal{C}$: Expected value change grid.
 
 ## Function: `calculate_expected_value_matrix`
 Computes the expected value matrix by combining transition probabilities with value changes.
 
 $$ E = T \odot C $$
 
-where $ \odot $ denotes the element-wise multiplication.
+where $\odot$ denotes the element-wise multiplication.
 
 ### Implementation
 - Converts input DataFrames to NumPy arrays for efficient computation.
